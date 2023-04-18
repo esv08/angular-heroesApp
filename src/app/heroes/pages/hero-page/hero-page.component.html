@@ -1,0 +1,51 @@
+
+<ng-template #divLoading>
+  <mat-grid-list cols="1">
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </mat-grid-list>
+</ng-template>
+
+<div *ngIf="hero; else divLoading" class="grid p-5">
+
+  <mat-card class="col-12 sm:col-6">
+
+    <mat-card-header>
+      <mat-card-title> {{hero.alter_ego}} </mat-card-title>
+      <mat-card-subtitle> {{hero.superhero}} </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-divider class="mt-2"></mat-divider>
+    <img [src]="hero | heroImage" [alt]="hero.superhero" mat-card-image class="mt-2"/>
+
+  </mat-card>
+
+  <mat-card class="col-12 sm:col-6">
+
+    <mat-card-header>
+      <mat-card-title> Información </mat-card-title>
+      <mat-card-subtitle> {{hero.superhero}} </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+
+      <mat-list>
+        <mat-divider></mat-divider>
+        <mat-list-item> {{hero.first_appearance}} </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item> {{hero.characters}} </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item> {{hero.publisher}} </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item> {{hero.alter_ego}} </mat-list-item>
+        <mat-divider></mat-divider>
+      </mat-list>
+
+      <mat-card-actions align="end">
+        <button mat-raised-button color="primary" (click)="goBack()"> Regresar </button>
+      </mat-card-actions>
+
+    </mat-card-content>
+
+  </mat-card>
+
+</div>

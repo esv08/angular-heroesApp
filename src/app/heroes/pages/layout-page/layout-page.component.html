@@ -1,0 +1,46 @@
+
+<mat-sidenav-container fullscreen>
+
+    <!-- diseño de menu despegable (spacer): clase de css creada manualmente-->
+  <mat-sidenav #sidenav mode="push" [ngStyle]="{width: '250px'}">
+    <mat-toolbar>
+      <span> Menú </span>
+      <span class="spacer"></span>
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon> menu </mat-icon>
+      </button>
+    </mat-toolbar>
+
+      <!-- interior menu desplegable -->
+    <mat-nav-list>
+      <mat-list-item *ngFor="let i of sidebarItems" [routerLink]="i.url" (click)="sidenav.toggle()">
+        <mat-icon matListItemIcon> {{i.icon}} </mat-icon>
+        {{i.label}}
+      </mat-list-item>
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+    <!-- barra del top del layout -->
+  <mat-toolbar color="primary">
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon> menu </mat-icon>
+    </button>
+
+    <span class="spacer"></span>
+
+    <button mat-button>
+      <mat-icon> logout </mat-icon>
+    </button>
+  </mat-toolbar>
+
+    <!-- contenedor del layout que cambia segun la pagina -->
+<div class="container p-2">
+  <router-outlet></router-outlet>
+</div>
+
+</mat-sidenav-container>
+
+
+
+
