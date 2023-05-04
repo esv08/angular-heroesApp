@@ -32,7 +32,7 @@ export class HeroPageComponent implements OnInit {
         switchMap( ({id}) => this.heroesService.getHeroById(id)),
         )
       .subscribe( hero => {
-        if ( !hero ) return this.router.navigate(['heroes/list']);    //si pasa es condicion es porque existe el heroe(id)
+        if ( !hero ) return this.router.navigate(['heroes/list']);    //si no pasa esta condicion es porque existe el heroe(id)
         this.hero = hero;
         return;
       })

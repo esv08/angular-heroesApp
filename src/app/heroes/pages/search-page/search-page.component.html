@@ -1,7 +1,7 @@
 
 <div class="flex flex-column p-5">
 
-  <h3> Buscador: </h3>
+  <h3> <b> Buscador: </b> </h3>
 
   <mat-form-field>
 
@@ -13,7 +13,7 @@
       (input)="searchHero()"
       [matAutocomplete]="auto"/>     <!--tomado de la importacion de mat-autocomplete de abajo -->
 
-    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onSelectedOption($event)">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onSelectedOption($event)">    <!-- onSelectedOption funcion propia de A.Material -->
       <mat-option *ngFor="let h of heroes" [value]="h">
         {{h.superhero}}
       </mat-option>
@@ -27,7 +27,4 @@
 
   </mat-form-field>
 
-    {{selectedHero | json}}
 </div>
-
-

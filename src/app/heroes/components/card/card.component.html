@@ -14,7 +14,7 @@
       <strong> Primera aparición: </strong> {{hero.first_appearance}}
       <br>
       <mat-chip-listbox>
-         <mat-chip *ngFor="let name of hero.characters.split(',') | slice:0:3">  <!--recorre el arreglo y genera substrings cuando encuentra una coma -->
+         <mat-chip *ngFor="let name of hero.characters.split(',') | slice:0:3">  <!--recorre el arreglo y genera substrings cuando encuentra una coma. Muestra los personajes que vienen en el json -->
           {{name}}
         </mat-chip>
       </mat-chip-listbox>
@@ -23,13 +23,12 @@
 
   <mat-divider></mat-divider>
   <mat-card-actions>
-    <button mat-button mat-raised color="primary" [routerLink]="['/heroes/edit', hero.id]">
+    <button mat-mini-fab color="primary" [routerLink]="['/heroes/edit', hero.id]">
       <mat-icon> edit </mat-icon>
-      Editar
     </button>
 
     <span class="spacer"> </span>
-    <button mat-button mat-raised [routerLink]="['/heroes', hero.id]">
+    <button mat-mini-fab color="primary" [routerLink]="['/heroes', hero.id]">
       <mat-icon> more_vert </mat-icon>
     </button>
 
