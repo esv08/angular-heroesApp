@@ -98,14 +98,6 @@
       "characters": "Peter Parker"
     },
     {
-      "id": "marvel-captain",
-      "superhero": "Captain America",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Steve Rogers",
-      "first_appearance": "Captain America Comics #1",
-      "characters": "Steve Rogers"
-    },
-    {
       "id": "marvel-thor",
       "superhero": "Thor",
       "publisher": "Marvel Comics",
@@ -205,6 +197,15 @@
       "first_appearance": "The Fantastic Four N.º 52 (1966)",
       "characters": "Luke Charles, Pantera Negra, Príncipe de Wakanda",
       "alt_img": "https://i.pinimg.com/originals/c9/d9/27/c9d927e8412bb7b8843056d416a3a588.jpg"
+    },
+    {
+      "id": "B7IAhfw",
+      "superhero": "Deadpool",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Ryan Reynolds",
+      "first_appearance": "The New Mutants Nº 98 (febrero de 1991)",
+      "characters": "Wade Winston Wilson, Mercenario Bocazas",
+      "alt_img": "https://cdn.marvel.com/u/prod/marvel/i/mg/6/40/62d04547da35f/clean.jpg"
     }
   ]
 }
