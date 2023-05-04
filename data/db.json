@@ -106,14 +106,6 @@
       "characters": "Steve Rogers"
     },
     {
-      "id": "marvel-iron",
-      "superhero": "Iron Man",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Tony Stark",
-      "first_appearance": "Tales of Suspense #39",
-      "characters": "Tony Stark"
-    },
-    {
       "id": "marvel-thor",
       "superhero": "Thor",
       "publisher": "Marvel Comics",
@@ -168,6 +160,51 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "NgheYf1",
+      "superhero": "Iron Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Robert Downey Jr.",
+      "first_appearance": "Tales of Suspense #39 (marzo de 1963)",
+      "characters": "Tony Stark",
+      "alt_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/059_-_Marvel_Vs_DC_-_psantaana.jpg/1024px-059_-_Marvel_Vs_DC_-_psantaana.jpg"
+    },
+    {
+      "id": "mTbBkUu",
+      "superhero": "Captain America",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Chris Evans",
+      "first_appearance": "Captain America Comics #1 (marzo de 1941)",
+      "characters": "Steven Grant Rogers, Nomade, The Captain",
+      "alt_img": "https://elcomercio.pe/resizer/kzA7GjtSnLhUz6nZEM9pr2b2H_E=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/2IRVLDWH2VBA5F2DAMVVR5DHJU.jpg"
+    },
+    {
+      "id": "8kL9kUz",
+      "superhero": "Aquaman",
+      "publisher": "DC Comics",
+      "alter_ego": "Jason Momoa ",
+      "first_appearance": "More Fun Comics, #73 (noviembre de 1941)",
+      "characters": "Arthur Curry, Rey de los Siete Mares, As Acuático, Marino Maravilla",
+      "alt_img": "https://pics.filmaffinity.com/aquaman-355320736-large.jpg"
+    },
+    {
+      "id": "KOCAY5M",
+      "superhero": "Lex Luthor",
+      "publisher": "DC Comics",
+      "alter_ego": "Gene Hackman",
+      "first_appearance": "Action Comics N.º 23 (1940)",
+      "characters": "Hombre Kryptonita, Hombre Átomo, Apex Lex",
+      "alt_img": "https://content.eccediciones.com//productos/20401/LexLuthor_LaHistoriaDeSuOrigen_Portada.jpg"
+    },
+    {
+      "id": "dGkot6J",
+      "superhero": "Black Panter",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Chadwick Boseman",
+      "first_appearance": "The Fantastic Four N.º 52 (1966)",
+      "characters": "Luke Charles, Pantera Negra, Príncipe de Wakanda",
+      "alt_img": "https://i.pinimg.com/originals/c9/d9/27/c9d927e8412bb7b8843056d416a3a588.jpg"
     }
   ]
 }
